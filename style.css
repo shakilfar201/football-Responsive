@@ -162,7 +162,19 @@ img{
     line-height: 26px;
     font-size: 15px;
 }
-
+.btn {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    border: 1px solid;
+    padding: 6px 9px;
+    display: inline-block;
+    margin-top: 20px;
+}
+.btn:hover{
+    background-color: black;
+    transition: .4s;
+}
 /* footer-logo css */
 
 .footer{
@@ -207,6 +219,7 @@ Media quaries
     .container{
         width:95%
     }
+    /* header mobile responsive */
     .header-view{        
         display: flex;
         flex-direction: column;
@@ -214,44 +227,27 @@ Media quaries
     }
     .header-title h1{
         width: 90%;
-        color: #fff;
-        font-size: 64px;
-        margin-bottom: 10px;
     }
     .header-img{
         text-align: right;
         width: 100%;
     }
+    /* player article mobile responsive */
     .player-article-info{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-row-gap: 25px;
-    }
-    .player-article{    
-        padding: 15px;    
-        box-shadow: #e1d3d3 2px 1px 15px;    
-        border-radius: 10px;
     }   
     .player-img img {
         width: 100%;
     }
-    
-    .player-info h1{
-        font-weight: 800;
-        margin: 10px 0;
-        color: #18191F;
-    }
-    .player-info p{
-        font-size: 16px;
-        color: #6C6C6C;
-        line-height: 28px;
-    }
-    /* blog */
+    /* blog mobile responsive*/
     .blogs{
         display: flex;
         flex-direction: column;
         align-items: center;
     }
+    /* membership mobile responsive */
     .membership-support{
         display: flex;
         flex-direction: column;
